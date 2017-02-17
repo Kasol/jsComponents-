@@ -1,0 +1,31 @@
+<!--JS可移动的面板插件 -->
+<!--made by kasol-->
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>移动面板</title>
+    <link href="panel.css" rel="stylesheet"/>
+
+</head>
+<body>
+<button class="popPanel" data-target="kasol">打开</button>
+<button class="popPanel" data-target="kasol2">打开</button>
+<div class="kasol-panel" id="kasol">
+    <header>面板1号<img class="close-button" src="close-blue.png"/></header>
+    <div class="container">容器</div>
+    <footer>脚部</footer>
+</div>
+
+<div class="kasol-panel" id="kasol2">
+    <header>面板2号<img class="close-button" src="close-blue.png"/></header>
+    <div class="container">容器</div>
+    <footer>脚部</footer>
+</div>
+</body>
+<script src="panel.js"></script>
+<script >
+   var myPanel=new panel("kasol","header","footer");
+    var myPanel2=new panel("kasol2","header","footer");
+</script>
+</html>
