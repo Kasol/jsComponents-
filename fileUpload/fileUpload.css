@@ -1,0 +1,20 @@
+#myFile,#sBtn{
+  display: none;
+}
+.myUpLoadBtn,.cancelBtn,.toServerBtn{
+    background-color: #0000ed;
+    display: inline-block;
+    width: 50px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+     color:#fff;
+    padding: 10px;
+}
+.myUpLoadBtn:hover,.cancelBtn:hover,.toServerBtn:hover{
+    background-color: #3333ff;
+}
+#filecontent{
+
+    color:black;
+}

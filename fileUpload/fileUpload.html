@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="fileUpload.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div>
+    <form id="myForm" action="http://localhost:8081/GZLT/File.php" enctype="multipart/form-data" method="post">
+        <input type="file" name="file"  id="myFile" accept="image/*,video/*,audio/*,application/*"  >
+        <label for="myFile" class="myUpLoadBtn">选择</label>
+        <label  class="cancelBtn">取消</label>
+        <label for=""  class="toServerBtn">上传</label>
+        <!--<input type="submit" id="sBtn">-->
+    </form>
+<progress id="myProgress" max="" value="0">
+</progress>
+    <span class="progressPercent">&nbsp;</span>
+    <div id="filecontent"></div>
+    <progress id="myProgress2" max="" value="0"></progress>
+
+
+</div>
+</body>
+<script type="text/javascript" src="fileUpload.js"></script>
+</html>
