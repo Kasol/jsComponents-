@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#container{
+    position: relative;
+    margin: 0 auto;
+}
+#container:after{
+    clear: both;
+    content: "";
+    height: 0;
+    visibility: hidden;
+}
+.box{
+    float: left;
+    padding: 10px 0 0 10px;
+}
+.pic{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ccc;
+}
+.img{
+    width: 200px;
+    /*position: absolute;*/
+}
+.overLay{
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #ccc;
+    display: none;
+    z-index: 10086;
+    width: 100%;
+    opacity: 0.8;
+}
