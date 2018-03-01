@@ -1,0 +1,97 @@
+<html>
+
+<head>
+    <link href="./drag.css" rel="stylesheet" type="text/css">
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+
+
+</head>
+
+<body>
+    <div class="menu-zone" id='kasol'>
+
+        <ul class="root-ul">
+            <li class="menu-node" draggable="true">
+                <a class="menu-name">维度管理</a>
+            </li>
+
+            <li class="menu-node " draggable="true">
+                <a class="menu-name">内容与投放</a>
+
+
+            </li>
+
+
+
+            <li class="menu-node" draggable="true">
+                <a class="menu-name">站点管理</a>
+
+
+            </li>
+
+            <li class="menu-node" draggable="true">
+                <a class="menu-name">域名管理</a>
+
+
+            </li>
+
+            <li class="menu-node" draggable="true">
+                <a class="menu-name">过滤规则</a>
+
+
+            </li>
+
+            <li class="menu-node" draggable="true">
+                <a class="menu-name">机器管理</a>
+
+
+                <ul>
+
+                    <li class="menu-node" draggable="true">
+                        <a class="menu-name">机器扩容</a>
+
+
+                    </li>
+
+                    <li class="menu-node" draggable="true">
+                        <a class="menu-name">机器列表</a>
+
+
+                    </li>
+
+                </ul>
+
+            </li>
+
+            <li class="menu-node" draggable="true">
+                <a class="menu-name">规则管理</a>
+
+
+                <ul>
+
+                    <li class="menu-node" draggable="true">
+                        <a class="menu-name">规则列表</a>
+
+
+                    </li>
+
+                </ul>
+
+            </li>
+
+            <li class="menu-node" draggable="true">
+                <a class="menu-name">日志查询</a>
+
+
+            </li>
+
+        </ul>
+    </div>
+    <script src="./drag.js"></script>
+    <script>
+        $('#kasol').initDragMenu();
+    </script>
+
+</body>
+
+</html>
